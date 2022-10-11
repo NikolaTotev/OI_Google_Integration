@@ -1,14 +1,42 @@
-.gradle
+### Intellij ###
+**/.idea/*
+.idea/*
+.jar
+!.idea/runConfigurations
+*.iml
+out
+
+### Gradle ###
+**/.gradle/*
+**/gradle/*
+.gradle/*
+**/build/
 /build/
+**/gradlew
+**/gradlew.bat
 
-# Ignore Gradle GUI config
-gradle-app.setting
+### React ###
+# dependencies
+/client/node_modules
+/.pnp
+.pnp.js
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# testing
+/coverage
 
-# Cache of project
-.gradletasknamecache
+# production
+/build
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+*.yml
