@@ -18,6 +18,7 @@ out
 ### React ###
 # dependencies
 /client/node_modules
+/client/src/secrets.tsx
 /.pnp
 .pnp.js
 
